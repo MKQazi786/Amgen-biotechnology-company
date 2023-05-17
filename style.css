@@ -1,0 +1,21 @@
+body{
+    background-image:url(./backgroundimage.jpg);
+    background-repeat:repeat-y;
+    background-size:cover;
+    
+}
+
+.amgenlogo {
+    width: 365px;
+    height: 80px;
+    border-radius: 2rem;
+}
+
+@media only screen and (min-width:768px) {
+    .amgenlogo {
+        width: 84.5rem;
+        height: 300px;
+        border-radius: 2rem;
+    }
+
+}
