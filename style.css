@@ -2,20 +2,31 @@ body{
     background-image:url(./backgroundimage.jpg);
     background-repeat:repeat-y;
     background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .amgenlogo {
-    width: 365px;
-    height: 80px;
+    width: 23rem;
+    height: 5rem;
     border-radius: 2rem;
+}
+
+.content {
+    background-color:   blue;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+    
 }
 
 @media only screen and (min-width:768px) {
     .amgenlogo {
-        width: 84.5rem;
-        height: 300px;
+        width: 60.5rem;
+        height: 12rem;
         border-radius: 2rem;
     }
-
+    
 }
