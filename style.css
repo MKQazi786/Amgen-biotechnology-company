@@ -1,11 +1,12 @@
 body{
-    background-image:url(./backgroundimage.jpg);
+    background-image:url(./image/backgroundimage.jpg);
     background-repeat:repeat-y;
     background-size:cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     
 }
 
@@ -19,14 +20,76 @@ body{
     background-color:   blue;
     padding: 0.5rem;
     border-radius: 1.3rem;
+    color:whitesmoke;
+    width: -webkit-fill-available;;
     
 }
 
+
+.img1 {
+    border-radius: 1rem;
+    width:-webkit-fill-available;
+    padding: 0.1rem;
+}
+
+h2{
+    text-decoration: underline dashed white;
+    padding: 0.1rem;
+    margin: auto;
+}
+p{
+    margin: 0;
+    text-indent: 9rem;
+}
+
+.article{
+    width: 10em;
+    height: 7em;
+    padding: 0.5rem 0.2rem 0.5rem 0rem;
+    padding-bottom: 0px;
+}
+
+.contact{
+    background-color:   blue;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+    color:whitesmoke;
+    width: -webkit-fill-available;
+    margin-top:inherit;
+}
+
+
+
+
+
+
 @media only screen and (min-width:768px) {
     .amgenlogo {
-        width: 60.5rem;
+        width: 60.3rem;
         height: 12rem;
         border-radius: 2rem;
     }
+    p{
+        font-size: large;
+        margin: 0;
+    }
     
+    h2{
+        text-decoration: underline dashed white;
+        padding: 0.2rem;
+        margin: auto;
+        font-size: x-large;
+    }
+    #figure {
+        background-color: grey;
+        border: 2px solid green;
+        margin: 1em;
+        color: lightgreen;
+    }
+    .article{
+        width: 27em;
+        height: 16em;
+        padding: 0.1em;
+        padding-bottom: 0px;
+    }
 }
